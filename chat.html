@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Discord Bot - Chat</title>
+  <!-- Include Discord-related CSS -->
+  <link rel="stylesheet" href="https://nyri4.github.io/Discolored/main.css">
+  <link rel="stylesheet" href="https://mr-miner1.github.io/Better-Badges/BetterBadges(BD).theme.css">
+  <link rel="stylesheet" href="https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css">
+  <link rel="stylesheet" href="https://CreArts-Community.github.io/Context-Icons/context-icons.theme.css">
+  <link rel="stylesheet" href="https://spinfish.github.io/css-snippets/snippets/filled-roles.css">
+  <link rel="stylesheet" href="https://spinfish.github.io/css-snippets/snippets/bsi-radialstatus-typing.css">
+  <!-- Include Amethyst CSS -->
+  <link rel="stylesheet" href="https://spinfish.github.io/amethyst/support/amethyst.compiled.css">
+  <style>
+    /* Additional styles specific to the chat page */
+    /* Add your custom styles here */
+  </style>
+</head>
+<body>
+  <!-- Main chat content -->
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Server list -->
+      <h2>Servers</h2>
+      <ul id="serversList">
+        <!-- Servers will be added here -->
+      </ul>
+      <!-- Direct Messages -->
+      <h2>Direct Messages</h2>
+      <ul id="dmList">
+        <!-- DMs will be added here -->
+      </ul>
+    </div>
+    <!-- Chat area -->
+    <div class="chat">
+      <!-- Chat messages (will be populated dynamically) -->
+      <div id="chatMessages">
+        <!-- Chat messages will be added here -->
+      </div>
+      <!-- Input field -->
+      <div class="input-field">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+  <!-- Include JavaScript file -->
+  <script src="render.api.js"></script>
+</body>
+</html>
